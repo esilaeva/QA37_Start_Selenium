@@ -85,13 +85,13 @@ public class Homeworks {
         WebElement classElem1 = wd.findElement(By.xpath("//*[@class='container']"));
         WebElement cl2 = wd.findElement(By.className("navbar-component_nav__1X_4m"));
         WebElement class2 = wd.findElement(By.cssSelector(".navbar-component_nav__1X_4m"));
-        WebElement classElem2 = wd.findElement(By.xpath("//*[@class='navbar-component_nav__1X_4m'"));
+        WebElement classElem2 = wd.findElement(By.xpath("//*[@class='navbar-component_nav__1X_4m']"));
         WebElement cl3 = wd.findElement(By.className("active"));
         WebElement class3 = wd.findElement(By.cssSelector(".active"));
-        WebElement classElem3 = wd.findElement(By.xpath("//*[@class='active'"));
+        WebElement classElem3 = wd.findElement(By.xpath("//*[@class='active']"));
         WebElement cl4 = wd.findElement(By.className("login_login__3EHKB"));
         WebElement class4 = wd.findElement(By.cssSelector(".login_login__3EHKB"));
-        WebElement classElem4 = wd.findElement(By.xpath("//*[@class='login_login__3EHKB'"));
+        WebElement classElem4 = wd.findElement(By.xpath("//*[@class='login_login__3EHKB']"));
 
         //by id
         WebElement nav = wd.findElement(By.id("root"));
